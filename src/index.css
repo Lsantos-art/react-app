@@ -1,0 +1,21 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #222;
+  color: aliceblue;
+  text-align: center;
+  background: #16222a;
+  background: -webkit-linear-gradient(to right, #3a6073, #16222a);
+  background: linear-gradient(to right, #3a6073, #16222a);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 200;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+}

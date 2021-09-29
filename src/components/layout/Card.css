@@ -1,0 +1,21 @@
+.card {
+    background-color: rgb(0, 0, 0);
+    border: black 3px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    height: 100%;
+}
+
+.card .title {
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.card .content {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0;
+}
