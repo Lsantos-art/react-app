@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Primeiro() {
+const Primeiro = () => {
   const msg = 'Primeiro componente';
   return (
     <div>
@@ -8,3 +8,5 @@ export default function Primeiro() {
     </div>
   );
 }
+
+export default Primeiro;

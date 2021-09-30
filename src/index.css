@@ -3,9 +3,9 @@ body {
   background-color: #222;
   color: aliceblue;
   text-align: center;
-  background: #16222a;
-  background: -webkit-linear-gradient(to right, #3a6073, #16222a);
-  background: linear-gradient(to right, #3a6073, #16222a);
+  background: #485563;
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  background: linear-gradient(to right, #29323c, #485563);
 }
 
 h1,
@@ -13,9 +13,4 @@ h2,
 h3 {
   font-weight: 200;
   margin: 0;
-}
-
-#app {
-  display: flex;
-  flex-wrap: wrap;
 }
