@@ -1,0 +1,13 @@
+table {
+  width: 100%;
+  margin: 0;
+}
+
+.par{
+    background-color: rgba(184, 184, 184, 0.753);
+}
+
+th {
+    background-color: #184152;
+    color: white;
+}
