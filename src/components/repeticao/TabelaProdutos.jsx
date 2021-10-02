@@ -6,7 +6,7 @@ const ProdutosList = () => {
 
   const produtosList = produtos.map((produto, i) => {
     return (
-      <tr key={produto.id} className={i % 2 == 0 ? 'par' : ''}>
+      <tr key={produto.id} className={i % 2 === 0 ? 'par' : ''}>
         <td>
           <small>{produto.id}</small>
         </td>
