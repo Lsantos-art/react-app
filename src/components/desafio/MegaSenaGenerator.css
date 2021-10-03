@@ -1,0 +1,35 @@
+.megasena {
+  text-align: center;
+}
+
+.megasena input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 3px;
+  padding: 3px;
+  text-align: center;
+}
+
+.megasena button {
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: teal;
+  padding: 6px;
+  font-weight: bold;
+  color: whitesmoke;
+  border: white solid 1px;
+  border-radius: 5px;
+}
+
+.numDiv {
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.4rem;
+  background-color: rgb(49, 49, 49);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.numDiv span {
+  margin: 5px;
+}

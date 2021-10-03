@@ -11,6 +11,7 @@ import Primeiro from "./components/basicos/Primeiro";
 import ProdutosList from "./components/repeticao/TabelaProdutos";
 import React from "react";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import Megasenagenerator from "./components/desafio/MegaSenaGenerator";
 
 const app = () => (
   <div className="app">
@@ -46,6 +47,9 @@ const app = () => (
       </Card>
       <Card titulo="#08 - Contador" color="#2471A3">
         <Contador passoInicial={0} numeroInicial={0}/>
+      </Card>
+      <Card titulo="#09 - Mega-sena generator" color="#145A32">
+        <Megasenagenerator />
       </Card>
     </div>
   </div>
