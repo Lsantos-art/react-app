@@ -1,14 +1,15 @@
-import React from "react";
-import Primeiro from "./components/basicos/Primeiro";
-import ComParametro from "./components/basicos/ComParametro";
+import "./App.css";
 import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
-import "./App.css";
+import ComParametro from "./components/basicos/ComParametro";
+import Contador from "./components/contador/Contador";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListAlunos from "./components/repeticao/ListaAlunos";
-import ProdutosList from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
+import Primeiro from "./components/basicos/Primeiro";
+import ProdutosList from "./components/repeticao/TabelaProdutos";
+import React from "react";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 
 const app = () => (
@@ -42,6 +43,9 @@ const app = () => (
       <Card titulo="#07 - Condicional" color="#8E44AD">
         <ParOuImpar numero={5} />
         <UsuarioInfo usuario={{ nome: "Lindomar" }} />
+      </Card>
+      <Card titulo="#08 - Contador" color="#2471A3">
+        <Contador passoInicial={0} numeroInicial={0}/>
       </Card>
     </div>
   </div>

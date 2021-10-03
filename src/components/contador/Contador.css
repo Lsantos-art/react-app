@@ -1,0 +1,26 @@
+.contador {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.contador input{
+    font-size: 1.1rem;
+}
+
+.contador button {
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    font-size: 1.1rem;
+    margin: 5px;
+    background-color: #2471A3;
+    color: white;
+    border: white 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.contador button:hover {
+    background-color: #04313D;
+    transition: 0.2s;
+}
